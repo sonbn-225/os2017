@@ -1,4 +1,4 @@
-USTH ICT 2017 Android Development
+USTH ICT 2017 Operating System
 =====================================
 
 Students are expected to:
@@ -10,5 +10,5 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
+* Name: *Bùi Ngọc Sơn*
+* ID: *USTHBI5-116*
