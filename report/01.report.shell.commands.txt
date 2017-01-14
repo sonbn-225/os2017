@@ -1,0 +1,66 @@
+#echo hello world
+hello world
+
+#passwd
+Changing password for sonbn.
+Current password: <Type current password>
+New password: <Type new password>
+Retype new password: <Retype new password>
+
+#date
+Chủ nhật, 15 Tháng một năm 2017 00:53:34 ICT
+
+#hostname
+velaciela
+
+#arch (deprecated)
+bash: arch: command not found
+
+#uname -a
+Linux velaciela 4.4.39-1-MANJARO #1 SMP PREEMPT Thu Dec 15 21:29:27 UTC 2016 x86_64 GNU/Linux
+
+#dmesg
+[ 4680.301835] usb 3-6: USB disconnect, device number 2
+[ 5090.653473] psmouse serio1: Touchpad at isa0060/serio1/input0 lost sync at byte 6
+[ 5090.674780] psmouse serio1: Touchpad at isa0060/serio1/input0 - driver resynced.
+[ 5651.174353] psmouse serio1: Touchpad at isa0060/serio1/input0 lost sync at byte 6
+[ 5651.198542] psmouse serio1: Touchpad at isa0060/serio1/input0 - driver resynced.
+[ 5923.156537] [drm:intel_pipe_update_end [i915]] *ERROR* Atomic update failure on pipe A (start=355633 end=355634) time 294 us, min 763, max 767, scanline start 746, end 772
+[ 6003.072867] psmouse serio1: Touchpad at isa0060/serio1/input0 lost sync at byte 6
+[ 6003.085566] psmouse serio1: Touchpad at isa0060/serio1/input0 - driver resynced.
+[ 6013.185731] psmouse serio1: Touchpad at isa0060/serio1/input0 lost sync at byte 6
+[ 6013.198424] psmouse serio1: Touchpad at isa0060/serio1/input0 - driver resynced.
+
+#uptime
+01:00:09 up  1:53,  2 users,  load average: 0,35, 0,32, 0,42
+
+#who am i
+sonbn    pts/0        2017-01-14 23:14 (velaciela)
+
+#whoami
+sonbn
+
+#who
+sonbn    tty7         2017-01-14 23:07 (:0)
+sonbn    pts/0        2017-01-14 23:14 (velaciela)
+
+#id
+uid=1000(sonbn) gid=1000(sonbn) groups=1000(sonbn),6(disk),7(lp),10(wheel),56(bumblebee),90(network),91(video),93(optical),95(storage),96(scanner),98(power)
+
+#last
+sonbn    pts/0        velaciela        Sat Jan 14 23:14   still logged in
+sonbn    tty7         :0               Sat Jan 14 23:07    gone - no logout
+reboot   system boot  4.4.39-1-MANJARO Sat Jan 14 23:07   still running
+sonbn    tty7         :0               Sat Jan 14 21:38 - down   (01:28)
+reboot   system boot  4.4.36-1-MANJARO Sat Jan 14 21:38 - 23:07  (01:29)
+
+wtmp begins Sat Jan 14 21:38:00 2017
+
+#finger
+bash: finger: command not found
+
+#w
+01:07:42 up  2:00,  2 users,  load average: 0,14, 0,18, 0,30
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+sonbn    tty7      23:07    2:00m  2:55   1.91s /usr/bin/startdde
+sonbn    pts/0     23:14    0.00s  0.05s  0.00s w
