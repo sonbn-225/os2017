@@ -6,15 +6,8 @@ $wc -l /etc/passwd
 $ free -t | grep "Total"
 Total:        15908        2761       10882
 
-$cat /proc/cpuinfo | grep "siblings"
-siblings	: 8
-siblings	: 8
-siblings	: 8
-siblings	: 8
-siblings	: 8
-siblings	: 8
-siblings	: 8
-siblings	: 8
+$cat /proc/cpuinfo | grep "processor" | wc -l
+8
 
-$find /home/sonbn/Pictures -type f -name "*.jpg" > numberOfJPG | wc -l numberOfJPG
-0 numberOfJPG
+$find /home/sonbn/Pictures -type f -name "*.jpg" | wc -l
+0
