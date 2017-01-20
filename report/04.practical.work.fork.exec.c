@@ -3,12 +3,13 @@
 
 int main(int argc, char const *argv[]) {
   printf("Main before fork()\n");
-  int pid = fork();
-  if (pid == 0) {
+  int pid1 = fork();
+  int pid2 = fork();
+  if (pid1 == 0) {
     char *freeh[]= { "/bin/free", "-h" , NULL};
     execvp("/bin/free", freeh);
   }
-  else {
+  if (pid2 == 0) {
     char *ps[]= { "/bin/ps", "-ef" , NULL};
     execvp("/bin/ps", ps);
   }
