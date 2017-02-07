@@ -32,14 +32,19 @@ item *consume() {
 }
 
 int main() {
-  item i;
-  i.type = '0';
-  i.amount = 1000;
-  i.unit = '1';
+  item i1,i2;
+  i1.type = '0';
+  i1.amount = 1000;
+  i1.unit = '1';
 
-  printf("Type: %c \nAmount: %d \nUnit: %c \n", i.type, i.amount, i.unit);
+  i2.type = '1';
+  i2.amount = 2;
+  i2.unit = '0';
+  printf("Type: %c Amount: %d Unit: %c \n", i1.type, i1.amount, i1.unit);
+  printf("Type: %c Amount: %d Unit: %c \n", i2.type, i2.amount, i2.unit);
 
-  produce(&i);
+  produce(&i1);
+  produce(&i2);
   printf("After produce: First: %d Last %d \n", first, last);
 
   item *j = consume();
